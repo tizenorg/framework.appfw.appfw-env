@@ -1,0 +1,12 @@
+# appfw-env
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=@LIB_INSTALL_DIR@
+includedir=${prefix}/include
+
+Name: appfw-env
+Description: appfw-environment
+Version: @VERSION@
+Libs: -L${libdir} -lappfw-env
+Cflags: -I${includedir}
