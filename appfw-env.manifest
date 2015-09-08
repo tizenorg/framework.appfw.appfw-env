@@ -1,0 +1,11 @@
+<manifest>
+	<define>
+		<domain name="appfw-env"/>
+	</define>
+	<request>
+		<domain name="appfw-env"/>
+	</request>
+	<assign>
+		<filesystem path="/usr/lib/libappfw-env.*" label="_"/>
+	</assign>
+</manifest>
